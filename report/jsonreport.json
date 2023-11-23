@@ -1,0 +1,477 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-16T03:16:13.089Z",
+        "line": 2,
+        "name": "To validate the signin with valid email id or mobile number and password",
+        "description": "",
+        "id": "to-validate-the-signin-functionality-of-amazon-application;to-validate-the-signin-with-valid-email-id-or-mobile-number-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44225235500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "Amazonsignin.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2347398200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To lauch the url of amazon sigin page",
+            "match": {
+              "location": "Amazonsignin.to_lauch_the_url_of_amazon_sigin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1010983401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To click the Signin button",
+            "match": {
+              "location": "Amazonsignin.to_click_the_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101506000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass the valid email id or mobile number in email field",
+            "match": {
+              "location": "Amazonsignin.to_pass_the_valid_email_id_or_mobile_number_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 847762900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the continue button",
+            "match": {
+              "location": "Amazonsignin.to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82785701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the valid password in password field",
+            "match": {
+              "location": "Amazonsignin.to_pass_the_valid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85413699,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click the signin button",
+            "match": {
+              "location": "Amazonsignin.to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201457999,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To close the browser",
+            "match": {
+              "location": "Amazonsignin.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-16T03:17:02.051Z",
+        "line": 25,
+        "name": "To validate the signin fuctionality of amazon application",
+        "description": "",
+        "id": "to-validate-the-signin-functionality-of-amazon-application;to-validate-the-signin-fuctionality-of-amazon-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1018871101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to launch the browser and maximize the window",
+            "match": {
+              "location": "PositiveNegative.user_has_to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1678595701,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to launch the url of amazon signin page",
+            "match": {
+              "location": "PositiveNegative.user_has_to_launch_the_url_of_amazon_signin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1244082900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to click the signin button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139088900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to pass the valid data\"ayuvi2001@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ayuvi2001@gmail.com\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PositiveNegative.user_has_to_pass_the_valid_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 914077000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user has to click the continue button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79347100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to pass the valid data\"Yuva@2011\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yuva@2011\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PositiveNegative.user_has_to_pass_the_valid_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93113700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to click signin button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188276301,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user has to close the browser",
+            "match": {
+              "location": "PositiveNegative.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-16T03:17:07.413Z",
+        "line": 26,
+        "name": "To validate the signin fuctionality of amazon application",
+        "description": "",
+        "id": "to-validate-the-signin-functionality-of-amazon-application;to-validate-the-signin-fuctionality-of-amazon-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 963799500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to launch the browser and maximize the window",
+            "match": {
+              "location": "PositiveNegative.user_has_to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1928774401,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to launch the url of amazon signin page",
+            "match": {
+              "location": "PositiveNegative.user_has_to_launch_the_url_of_amazon_signin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1020242100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to click the signin button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125333000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to pass the valid data\"9600575685\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9600575685\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PositiveNegative.user_has_to_pass_the_valid_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1033384400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user has to click the continue button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153810500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to pass the valid data\"123456789\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456789\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PositiveNegative.user_has_to_pass_the_valid_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153468900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to click signin button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189793900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user has to close the browser",
+            "match": {
+              "location": "PositiveNegative.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-16T03:17:12.986Z",
+        "line": 27,
+        "name": "To validate the signin fuctionality of amazon application",
+        "description": "",
+        "id": "to-validate-the-signin-functionality-of-amazon-application;to-validate-the-signin-fuctionality-of-amazon-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 889174200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to launch the browser and maximize the window",
+            "match": {
+              "location": "PositiveNegative.user_has_to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1584223500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to launch the url of amazon signin page",
+            "match": {
+              "location": "PositiveNegative.user_has_to_launch_the_url_of_amazon_signin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 885805000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has to click the signin button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112978701,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to pass the valid data\"9940833364\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9940833364\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PositiveNegative.user_has_to_pass_the_valid_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1319575300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user has to click the continue button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72056399,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to pass the valid data\"yuvaraj\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yuvaraj\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PositiveNegative.user_has_to_pass_the_valid_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107452300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to click signin button",
+            "match": {
+              "location": "PositiveNegative.user_has_to_click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205480500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user has to close the browser",
+            "match": {
+              "location": "PositiveNegative.user_has_to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the signin functionality of amazon application",
+    "description": "",
+    "id": "to-validate-the-signin-functionality-of-amazon-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/amazon.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="65.072153">
+    <testcase classname="To validate the signin functionality of amazon application" name="To validate the signin with valid email id or mobile number and password" time="48.957964">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When To lauch the url of amazon sigin page..................................passed
+And To click the Signin button..............................................passed
+And To pass the valid email id or mobile number in email field..............passed
+And To click the continue button............................................passed
+And To pass the valid password in password field............................passed
+And To click the signin button..............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the signin functionality of amazon application" name="To validate the signin fuctionality of amazon application" time="5.362084">
+        <system-out><![CDATA[Given user has to launch the browser and maximize the window................passed
+When user has to launch the url of amazon signin page.......................passed
+And user has to click the signin button.....................................passed
+And user has to pass the valid data"ayuvi2001@gmail.com" in email field.....passed
+And user has to click the continue button...................................passed
+And user has to pass the valid data"Yuva@2011" in password field............passed
+And user has to click signin button.........................................passed
+Then user has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the signin functionality of amazon application" name="To validate the signin fuctionality of amazon application 2" time="5.572247">
+        <system-out><![CDATA[Given user has to launch the browser and maximize the window................passed
+When user has to launch the url of amazon signin page.......................passed
+And user has to click the signin button.....................................passed
+And user has to pass the valid data"9600575685" in email field..............passed
+And user has to click the continue button...................................passed
+And user has to pass the valid data"123456789" in password field............passed
+And user has to click signin button.........................................passed
+Then user has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the signin functionality of amazon application" name="To validate the signin fuctionality of amazon application 3" time="5.179858">
+        <system-out><![CDATA[Given user has to launch the browser and maximize the window................passed
+When user has to launch the url of amazon signin page.......................passed
+And user has to click the signin button.....................................passed
+And user has to pass the valid data"9940833364" in email field..............passed
+And user has to click the continue button...................................passed
+And user has to pass the valid data"yuvaraj" in password field..............passed
+And user has to click signin button.........................................passed
+Then user has to close the browser..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
